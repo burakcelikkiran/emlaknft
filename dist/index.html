@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="TR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/assets/favicon.bb0afe49.png" />
+    <link rel="icon" href="/assets/favicon.db070e0b.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Terramirum</title>
       <meta name="description" content="Herhangi birinin sahibi olduğu gayrimenkul, dijitalleştirilerek (tokenizasyon) tapudaki karşılığı olan Emlak-NFT’ler üretilir. Blok zincirde üretilen Emlak-NFT’lerini, ‘dijital gayrimenkul yatırım platformları’nda (Terra Mirum) tüm kayıtlı kullanıcılar tek tıkla satın alabilir veya satışa koyabilir.">
@@ -16,16 +16,40 @@
               scroll-behavior: smooth;
           }
       </style>
-  <script type="module" crossorigin src="/assets/index.24aee2ad.js"></script>
-  <link rel="modulepreload" href="/assets/vendor.e7db28e9.js">
-  <link rel="stylesheet" href="/assets/index.c0f15e7f.css">
+  <script type="module" crossorigin src="/assets/index.dfe06e02.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.051e3d65.js">
+  <link rel="stylesheet" href="/assets/index.ea9e0e5e.css">
 </head>
   <body>
     <div id="app"></div>
 
     
   <script>
-      setTimeout(() => {  document.getElementById( 'scroll' ).scroll(0, 999999); }, 500);
+      function slowScrollToBottom(element) {
+          let start = element.scrollTop; // Başlangıç noktası
+          const end = element.scrollHeight; // Kaydırılacak son nokta
+          const duration = 5000; // 5 saniyede tamamlanacak
+          const startTime = performance.now();
+
+          function scrollStep(currentTime) {
+              const elapsed = currentTime - startTime;
+              const progress = Math.min(elapsed / duration, 1); // 0 ile 1 arasında normalize edilen ilerleme
+              const newScrollPosition = start + (end - start) * progress;
+
+              element.scrollTop = newScrollPosition;
+
+              if (progress < 1) {
+                  requestAnimationFrame(scrollStep);
+              }
+          }
+
+          requestAnimationFrame(scrollStep);
+      }
+
+      // Kullanım:
+      const scrollElement = document.getElementById('scroll');
+      slowScrollToBottom(scrollElement);
+
   </script>
   </body>
 </html>
