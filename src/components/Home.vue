@@ -4,22 +4,22 @@
       <div class="w-full lg:w-7/12 flex items-center h-full">
         <div class="p-8 pb-0">
           <div class="flex flex-wrap items-center">
-            <div class="font-bold leading-none lg:leading-auto text-[50px] lg:text-[88px] text-white">{{domainPrefix}}</div>
+            <div class="font-bold leading-none lg:leading-auto text-[50px] lg:text-[88px] text-white"><span class="capitalize">{{domainPrefix}}</span></div>
             <img src="/onepage/NFT.png" class="max-w-[120px] lg:max-w-[200px]" alt="">
           </div>
           <div class=" mt-5">
-            <div class="text-[#B96400] text-lg lg:text-2xl text-left font-bold drop-shadow-text">{{domainPrefix}}-NFT’si Nedir?</div>
+            <div class="text-[#B96400] text-lg lg:text-2xl text-left font-bold drop-shadow-text"><span class="capitalize">{{domainPrefix}}</span>-NFT’si Nedir?</div>
             <div class="text-white text-base text-left">
               Herhangi birinin sahibi olduğu gayrimenkul, dijitalleştirilerek (tokenizasyon) tapudaki
-              karşılığı olan {{domainPrefix}}-NFT’ler üretilir. Blok zincirde üretilen {{domainPrefix}}-NFT’lerini, ‘dijital
+              karşılığı olan <span class="capitalize">{{domainPrefix}}</span>-NFT’ler üretilir. Blok zincirde üretilen <span class="capitalize">{{domainPrefix}}</span>-NFT’lerini, ‘dijital
               gayrimenkul yatırım platformları’nda (Terramirum) tüm kayıtlı kullanıcılar tek tıkla
               satın alabilir veya satışa koyabilir.
             </div>
           </div>
           <div class="mt-5">
-            <div class="text-[#B96400] text-lg lg:text-2xl text-left font-bold drop-shadow-text">Nasıl {{domainPrefix}}-NFT’si Satın Alabilirim?</div>
+            <div class="text-[#B96400] text-lg lg:text-2xl text-left font-bold drop-shadow-text">Nasıl <span class="capitalize">{{domainPrefix}}</span>-NFT’si Satın Alabilirim?</div>
             <div class="text-white text-base text-left">
-              {{domainPrefix}}-NFT satın almadan önce, ‘dijital gayrimenkul yatırım platformu’na (Terramirum)
+              <span class="capitalize">{{domainPrefix}}</span>-NFT satın almadan önce, ‘dijital gayrimenkul yatırım platformu’na (Terramirum)
               kayıt yaptırmanız gerekmektedir. Hesabınız onaylandıktan sonra Thorne Bilişim tarafından
               kişisel hesabınız ve cüzdanınız (TRM Wallet) açılmış olacaktır. Artık yatırım yapmak istediğiniz
               gayrimenkulü, Terramirum’dan kolaylıkla seçerek satın alım gerçekleştirebilirsiniz.
@@ -87,7 +87,7 @@
               </svg>
               </a>
               <a href="https://terramirum.com/" class="transition-all duration-300 group-hover:opacity-[0.7] group-hover:drop-shadow-xl">
-                <div class="text-[#FF774E] text-[0.625rem] pl-2">Evinizi hisselere bölerek satabilirsiniz</div>
+                <div class="text-[#FF774E] text-[0.625rem] pl-2">Gayrimenkullerimizi hisselere bölerek satabilirsiniz</div>
               </a>
             </div>
           </div>
@@ -107,7 +107,7 @@
               </svg>
               </a>
               <a href="https://terramirum.com/" class="transition-all duration-300 group-hover:opacity-[0.7] group-hover:drop-shadow-xl">
-                <div class="text-[#167C00] text-[0.625rem] pl-2">Tek tıkla ev satın alın</div>
+                <div class="text-[#167C00] text-[0.625rem] pl-2">Tek tıkla pay satın alın</div>
               </a>
             </div>
           </div>
@@ -137,7 +137,7 @@
                 </svg>
               </a>
               <a href="https://terramirum.com/" class="transition-all duration-300 group-hover:opacity-[0.7] group-hover:drop-shadow-xl">
-                <div class="text-[#BA7A00] text-[0.625rem] pl-2">Arsaya birlikte yatırım yapalım</div>
+                <div class="text-[#BA7A00] text-[0.625rem] pl-2">Projelere birlikte yatırım yapalım</div>
               </a>
             </div>
           </div>
