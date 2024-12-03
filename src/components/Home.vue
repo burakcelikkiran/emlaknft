@@ -4,25 +4,25 @@
       <div class="w-full lg:w-7/12 flex items-center h-full">
         <div class="p-8 pb-0">
           <div class="flex flex-wrap items-center">
-            <div class="font-bold leading-none lg:leading-auto text-[50px] lg:text-[88px] text-white -mr-5">Emlak</div>
+            <div class="font-bold leading-none lg:leading-auto text-[50px] lg:text-[88px] text-white">Emlak</div>
             <img src="/onepage/NFT.png" class="max-w-[120px] lg:max-w-[200px]" alt="">
           </div>
           <div class=" mt-5">
             <div class="text-[#B96400] text-lg lg:text-2xl text-left font-bold drop-shadow-text">Emlak-NFT’si Nedir?</div>
-            <div class="text-white text-base text-justify">
+            <div class="text-white text-base text-left">
               Herhangi birinin sahibi olduğu gayrimenkul, dijitalleştirilerek (tokenizasyon) tapudaki
               karşılığı olan Emlak-NFT’ler üretilir. Blok zincirde üretilen Emlak-NFT’lerini, ‘dijital
-              gayrimenkul yatırım platformları’nda (Terra Mirum) tüm kayıtlı kullanıcılar tek tıkla
+              gayrimenkul yatırım platformları’nda (Terramirum) tüm kayıtlı kullanıcılar tek tıkla
               satın alabilir veya satışa koyabilir.
             </div>
           </div>
           <div class="mt-5">
             <div class="text-[#B96400] text-lg lg:text-2xl text-left font-bold drop-shadow-text">Nasıl Emlak-NFT’si Satın Alabilirim?</div>
-            <div class="text-white text-base text-justify">
-              Emlak-NFT satın almadan önce, ‘dijital gayrimenkul yatırım platformu’na (Terra Mirum)
+            <div class="text-white text-base text-left">
+              Emlak-NFT satın almadan önce, ‘dijital gayrimenkul yatırım platformu’na (Terramirum)
               kayıt yaptırmanız gerekmektedir. Hesabınız onaylandıktan sonra Thorne Bilişim tarafından
-              kişisel hesabınız (TRM Wallet) açılmış olacaktır. Artık yatırım yapmak istediğiniz
-              gayrimenkulü, Terra Mirum’dan kolaylıkla seçerek satın alım gerçekleştirebilirsiniz.
+              kişisel hesabınız ve cüzdanınız (TRM Wallet) açılmış olacaktır. Artık yatırım yapmak istediğiniz
+              gayrimenkulü, Terramirum’dan kolaylıkla seçerek satın alım gerçekleştirebilirsiniz.
             </div>
           </div>
           <div class="mt-5 flex items-end">
